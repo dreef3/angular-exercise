@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('angularExerciseApp', ['ngResource', 'ngRoute', 'ngMock', 'angularExerciseApp.feed'])
+  .module('angularExerciseApp', ['ngResource', 'ngRoute', 'angularExerciseApp.feed'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/feed', {
