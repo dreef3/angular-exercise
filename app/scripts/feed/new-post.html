@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">New post</h3>
+      </div>
+      <div class="panel-body">
+        <form>
+          <div class="form-group">
+            <label for="input-post-text">Message:</label>
+            <textarea class="form-control" id="input-post-text" cols="30" rows="5" ng-model="message">
+            </textarea>
+          </div>
+        </form>
+      </div>
+      <div class="panel-footer">
+        <button class="btn btn-primary" ng-click="send()">Send</button>
+        <a href="#/" class="btn btn-default">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>

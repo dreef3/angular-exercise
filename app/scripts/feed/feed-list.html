@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Posts</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item" ng-repeat="post in feed">
+            <strong>From:</strong> {{post.from.name}}<br>
+            <strong>Type:</strong> {{post.type}}<br>
+            <strong>Message:</strong> {{post.message}}<br>
+            <a class="btn btn-info" href="#/feed/{{post.id}}">Details</a>
+          </li>
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <div class="button-group">
+          <a class="btn btn-default" href="#/feed/new">New Post</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
